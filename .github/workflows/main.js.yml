@@ -23,4 +23,4 @@ jobs:
           platforms: linux/amd64, linux/arm64
           labels: ${{ steps.meta.outputs.labels }}
           push: true
-          tags: rosatolen/ruby_imagemagick:${{ github.sha }}
+          tags: rosatolen/ruby_imagemagick:latest
